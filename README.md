@@ -1,5 +1,7 @@
-Building a react app using the create-react-app tool. This app is built as part of the web development course on codecademy.com 
-Thank you for taking the time to have a look at the repo! README below is from codecademy.com.
+Building a react app using the create-react-app tool. This app is built as part of the web development course on codecademy.com. Attempting my own solutions first on master, when working with guidance I switch onto the codecademy_instructions branch, which I then merge back into master.
+
+README below is from codecademy.com.
+
 Cheers,
 Pradeep Jerome
 19/10/20
