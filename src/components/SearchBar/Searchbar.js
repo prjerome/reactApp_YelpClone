@@ -1,23 +1,39 @@
 import React from 'react';
 import './SearchBar.css';
-import ReactDOM from 'react-dom';
 
-const sortByOptions = {
-    "Best Match": "best_match",
-    "Highest Rated": "rating",
-    "Most Reviewed": "review_count",
-   }
+
 
 class Searchbar extends React.Component {
     constructor(props) {
         super(props);
         this.renderSortByOptions = this.renderSortByOptions.bind(this);
+        this.getSortByClass = this.getSortByClass.bind(this);
+        this.state = {
+            term:"",
+            location:"",
+            sortBy: "best_match"
+        };
+         this.sortByOptions = {
+            "Best Match": "best_match",
+            "Highest Rated": "rating",
+            "Most Reviewed": "review_count",
+           };
     }
+
+    getSortByClass(sortByOption) {
+      if(sortByOption) {
+        return "SearchBar-sort-options li:hover";
+      }
+      else if (!sortByOption) {
+          return "SearchBar-sort-options";
+      }
+    }
+
     
     renderSortByOptions() {
-            Object.keys(sortByOptions).map(
+            Object.keys(this.sortByOptions).map(
                 sortByOptionKey => {
-                    let sortByOptionValue = sortByOptions.sortByOptionKey;
+                    let sortByOptionValue = this.sortByOptions.sortByOptionKey;
                   return <li key={sortByOptionValue}>{sortByOptionKey}</li>
                 })
     }
@@ -25,8 +41,8 @@ class Searchbar extends React.Component {
     render() {
         return(
             <div className="SearchBar">
-                <div className="SearchBar-sort-options">
-                        <ul>
+                <div className={this.getSortByClass()}>
+                        <ul onMouseOver={this.getSortByClass}>
                             {this.renderSortByOptions()};
                         </ul>
                     </div>
