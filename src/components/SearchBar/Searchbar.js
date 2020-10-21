@@ -80,7 +80,7 @@ class Searchbar extends React.Component {
                             <input onChange={this.handleLocationChange} placeholder={this.state.where} />
                         </div>
                     <div className="SearchBar-submit">
-                        <a>Let's Go</a>
+                        <a onClick={this.handleSearch}>Let's Go</a>
                 </div>
             </div>
         )

@@ -1,14 +1,17 @@
-import React, { useLayoutEffect } from 'react';
+import React from 'react';
 import './BusinessList.css';
 import  Business from '../Business/Business';
 
+
+
 class BusinessList extends React.Component {
     render() {
+        const listOfBusinesses = this.props.searchYelp;
         return (
             <div class="BusinessList">
-                 {this.props.businesses.map(business => {
+                 {listOfBusinesses.map(business => {
                      return (
-                        <Business business={this.props.businesses}/>
+                        <Business business={business}/>
                      )
                  })}
                 
