@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactApp_YelpClone/static/css/main.b287f705.chunk.css",
+    "main.js": "/reactApp_YelpClone/static/js/main.1b1a5c05.chunk.js",
+    "main.js.map": "/reactApp_YelpClone/static/js/main.1b1a5c05.chunk.js.map",
+    "runtime-main.js": "/reactApp_YelpClone/static/js/runtime-main.7ae84d5d.js",
+    "runtime-main.js.map": "/reactApp_YelpClone/static/js/runtime-main.7ae84d5d.js.map",
+    "static/js/2.35ce6af7.chunk.js": "/reactApp_YelpClone/static/js/2.35ce6af7.chunk.js",
+    "static/js/2.35ce6af7.chunk.js.map": "/reactApp_YelpClone/static/js/2.35ce6af7.chunk.js.map",
+    "index.html": "/reactApp_YelpClone/index.html",
+    "precache-manifest.45b4564ec1b6c523345cc4e2ca32cecd.js": "/reactApp_YelpClone/precache-manifest.45b4564ec1b6c523345cc4e2ca32cecd.js",
+    "service-worker.js": "/reactApp_YelpClone/service-worker.js",
+    "static/css/main.b287f705.chunk.css.map": "/reactApp_YelpClone/static/css/main.b287f705.chunk.css.map",
+    "static/js/2.35ce6af7.chunk.js.LICENSE.txt": "/reactApp_YelpClone/static/js/2.35ce6af7.chunk.js.LICENSE.txt",
+    "static/media/SearchBar.css": "/reactApp_YelpClone/static/media/background_search_mobile.082e88ec.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ae84d5d.js",
+    "static/js/2.35ce6af7.chunk.js",
+    "static/css/main.b287f705.chunk.css",
+    "static/js/main.1b1a5c05.chunk.js"
+  ]
+}
