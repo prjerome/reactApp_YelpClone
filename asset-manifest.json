@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.f312510a.chunk.css",
-    "main.js": "/my-app/static/js/main.92bf3e24.chunk.js",
-    "main.js.map": "/my-app/static/js/main.92bf3e24.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.0f6d0a0f.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.0f6d0a0f.js.map",
-    "static/js/2.35ce6af7.chunk.js": "/my-app/static/js/2.35ce6af7.chunk.js",
-    "static/js/2.35ce6af7.chunk.js.map": "/my-app/static/js/2.35ce6af7.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.c9495b362cb0349f42c97b76bc17a623.js": "/my-app/precache-manifest.c9495b362cb0349f42c97b76bc17a623.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/main.f312510a.chunk.css.map": "/my-app/static/css/main.f312510a.chunk.css.map",
-    "static/js/2.35ce6af7.chunk.js.LICENSE.txt": "/my-app/static/js/2.35ce6af7.chunk.js.LICENSE.txt",
-    "static/media/SearchBar.css": "/my-app/static/media/background_search_mobile.082e88ec.webp"
+    "main.css": "//prjerome.github.io/reactApp_YelpClone/static/css/main.e61ace4f.chunk.css",
+    "main.js": "//prjerome.github.io/reactApp_YelpClone/static/js/main.f73484d8.chunk.js",
+    "main.js.map": "//prjerome.github.io/reactApp_YelpClone/static/js/main.f73484d8.chunk.js.map",
+    "runtime-main.js": "//prjerome.github.io/reactApp_YelpClone/static/js/runtime-main.0e287552.js",
+    "runtime-main.js.map": "//prjerome.github.io/reactApp_YelpClone/static/js/runtime-main.0e287552.js.map",
+    "static/js/2.35ce6af7.chunk.js": "//prjerome.github.io/reactApp_YelpClone/static/js/2.35ce6af7.chunk.js",
+    "static/js/2.35ce6af7.chunk.js.map": "//prjerome.github.io/reactApp_YelpClone/static/js/2.35ce6af7.chunk.js.map",
+    "index.html": "//prjerome.github.io/reactApp_YelpClone/index.html",
+    "precache-manifest.95d4d832df9507b97839ac6e2a68ec97.js": "//prjerome.github.io/reactApp_YelpClone/precache-manifest.95d4d832df9507b97839ac6e2a68ec97.js",
+    "service-worker.js": "//prjerome.github.io/reactApp_YelpClone/service-worker.js",
+    "static/css/main.e61ace4f.chunk.css.map": "//prjerome.github.io/reactApp_YelpClone/static/css/main.e61ace4f.chunk.css.map",
+    "static/js/2.35ce6af7.chunk.js.LICENSE.txt": "//prjerome.github.io/reactApp_YelpClone/static/js/2.35ce6af7.chunk.js.LICENSE.txt",
+    "static/media/SearchBar.css": "//prjerome.github.io/reactApp_YelpClone/static/media/background_search_mobile.082e88ec.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f6d0a0f.js",
+    "static/js/runtime-main.0e287552.js",
     "static/js/2.35ce6af7.chunk.js",
-    "static/css/main.f312510a.chunk.css",
-    "static/js/main.92bf3e24.chunk.js"
+    "static/css/main.e61ace4f.chunk.css",
+    "static/js/main.f73484d8.chunk.js"
   ]
 }
